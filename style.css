@@ -1,0 +1,26 @@
+#graph {
+  position: relative;
+  left: 350px;
+  bottom: 0px;
+  width: 800px;
+}
+
+#datatable {
+  position: relative;
+  bottom: 450px;
+  right: 250px;
+  width: 400px;
+}
+
+#options {
+  position: relative;
+  left: 200px;
+  bottom: 390px;
+}
+
+#datatable2 {
+  position: relative;
+  bottom: 515px;
+  right: 250px;
+  width: 400px;
+}

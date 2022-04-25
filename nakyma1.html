@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Latest 50 values</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-primary navbar-expand-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">WeatherStation</a>
+        <ul class="navbar-nav me-auto my-2">
+          <li class="nav-item">
+            <a class="nav-link" href="/nakyma1.html">Latest 50 values</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/nakyma2.html">Temperature</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/nakyma3.html">Wind speed</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-sm">
+      <h1>Latest 50 values</h1>
+      <table class="table table-striped table-bordered">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Päiväys</th>
+            <th>ID</th>
+            <th>Laite</th>
+            <th>Datatyyppi</th>
+            <th>Arvo</th>
+          </tr>
+        </thead>
+        <tbody id="tablebody"></tbody>
+      </table>
+    </div>
+    <script src="nakyma1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@next/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+  </body>
+</html>
